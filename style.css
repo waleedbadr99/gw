@@ -587,7 +587,7 @@ body {
             padding-bottom: 36px;
         }
         .social-media .box-media {
-            display: block;
+            display: inline-flex;
         }
     .social-media .box-media .icon {
         margin: auto;
