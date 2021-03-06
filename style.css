@@ -475,7 +475,7 @@ body {
   }
   @media (max-width:575px) {
     .had-top {
-        background-position: 51% 49%;
+        background-position-x: 60%;
         background-size: cover;
         background-repeat: no-repeat;
         height: 98vh;
