@@ -592,9 +592,14 @@ body {
     .social-media .box-media .icon {
         margin: auto;
         padding: 12px 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 0;
     }
     .social-media .box-media .icon a {
         border-radius: 16%;
+        line-height: 2.2;
     }
         .end-des {
             font-size: 25px;
