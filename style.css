@@ -586,8 +586,8 @@ body {
             padding-top: 22px;
             padding-bottom: 36px;
         }
-        .social-media .box-media {
-            display: inline-flex;
+            .social-media .box-media {
+            display: block;
         }
     .social-media .box-media .icon {
         margin: auto;
@@ -595,7 +595,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 0;
+        margin-bottom: 20px;
     }
     .social-media .box-media .icon a {
         border-radius: 16%;
@@ -606,7 +606,6 @@ body {
             direction: ltr;
             overflow: hidden;
         }
-
   }
   @media (min-width:576px) and (max-width:767px) {
     .had-top .text-had {
@@ -701,7 +700,6 @@ body {
     .social-media .box-media .icon {
         margin-right: 6%;
     }
-    
 }
 @media (min-width:768px) and (max-width:991px) {
     .had-top .text-had {
@@ -775,10 +773,7 @@ body {
         position: absolute;
         bottom: 46px;
         left: 322px;
-    }
-    
-    
-    
+    {
 }
 @media (min-width:992px) and (max-width:1199px) {
     .had-top .text-had {
@@ -828,7 +823,6 @@ body {
         overflow: hidden;
         height: 634px
     }
-    
 }
 @media (min-width:1200px) and (max-width:1400px) {
     .calendar .day-top {
