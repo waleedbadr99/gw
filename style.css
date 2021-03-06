@@ -1,0 +1,860 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    direction: rtl;
+    font-family: 'dubai-bold' !important;
+}
+/*
+.container {
+    width: 1100px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+*/
+.had-top {
+    background-image: url(../gw/img/had.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 76vh;
+    position: relative;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.had-top::after {
+    content: "";
+    background-color: #5656560f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.had-top .text-had {
+    position: absolute;
+    color: #fff;
+    z-index: 2;
+    top: 32%;
+    left: 16%;
+    margin-left: -35px;
+}
+.had-top .text-had h1 {
+    font-size: 5em;
+    padding: 0 0.5em 0.25em 0.5em;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: 0;
+    font-family: poppins,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: -40px
+}
+.had-top .text-had h1::first-letter {
+    background-image: linear-gradient(to right,#eb3c5a 0%,#f67831 100%),linear-gradient(to right,#eb3c5a 0%,#f67831 100%);
+    padding: 5px 22px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+.had-top .text-had  p {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 40px;
+}
+.had-top .link {
+    display: flex;
+    justify-content: center;
+}
+.had-top .link a {
+    background-image: linear-gradient(to right,#eb3c5a 0%,#f67831 100%),linear-gradient(to right,#eb3c5a 0%,#f67831 100%);
+    padding: 14px 32px;
+    color: #fff;
+    font-size: 26px;
+    text-decoration: none;
+}
+.box-t {
+    background-color: #eef0f4;
+    padding: 40px;
+    min-height: 600px;
+}
+.box-t .box-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 100px;
+}
+.box-one {
+    flex-basis: 32%;
+    background-color: #fff;
+    margin-left: 1%;
+}
+.box-t .box-top .box-one .img-one {
+    background-image: url(https://h.top4top.io/p_1886fx8n81.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 302px;
+    background-position: 0% 52%;
+}
+.box-t .box-top .box-one .img-two {
+    background-image: url(https://h.top4top.io/p_1886vcj8t1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 302px;
+    background-position: 0% 52%;
+}
+.box-t .box-top .box-one .img-three {
+    background-image: url(https://a.top4top.io/p_1886vkmq21.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 302px;
+    background-position: 0% 52%;
+}
+.box-t .box-top .box-one .text-bo {
+    padding: 10px;
+}
+.box-t .text-bo p {
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 20px;
+    border-right: 6px solid #3766c7;
+}
+.mine {
+    background-color: #f5f5f5;
+    min-height: 357px;
+    padding: 70px;
+    position: relative;    
+}
+.mine .one-about .top-mine {
+    text-align: center;
+    font-size: 50px;
+}
+.mine .one-about p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+.mine .one-about .top-about {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.mine .one-about .about-box .right-about {
+    padding: 0 30px 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 4px 15px #00000026;
+    border-radius: 10px;
+    width: 74%;
+    height: 160px;
+    margin-bottom: 2%;
+    display: flex;
+    overflow: hidden
+}
+.mine .one-about .top-about .left-about {
+    flex-basis: 45%;
+}
+.mine .one-about .top-about .left-about ul li {
+    font-size: 25px;
+    margin-top: 15px;
+}
+.mine .one-about .top-about .left-about .ico {
+    color: #fff;
+    background-color: #ffae25;
+    font-size: 35px;
+    border-radius: 50%;
+    width: 70px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mine .one-about .top-about .about-box {
+    flex-basis: 55%;
+}
+.mine .one-about .about-box .right-about .icon {
+    width: 200px;
+    height: 90px;
+    background: #8368FF;
+    display: inline-block;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 0 0 35px 35px;
+}
+.mine .one-about .about-box .right-about .icon-m {
+    background: #ffae25;
+}
+.mine .one-about .about-box .right-about .icon .one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    color: #fff;
+    transform: rotate(313deg);
+}
+.mine .one-about .about-box .right-about .text-one {
+    font-size: 30px;
+    text-align: center;
+    margin-right: 62px;
+}
+.price {
+    background-color: #eef0f4;
+    padding: 50px;
+}
+.price .box-card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+.price .card-o {
+    width: 33%;
+    height: 497px;
+    margin-top: 35px;
+    background-color: #fff;
+    margin-left: 2%;
+    border: 2px solid #d6d7da8c;
+    height: 590px;
+}
+.card-o .had-card {
+    padding: 19px;
+}
+.card-o .spes,
+ .spes-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8368ffd4;
+    overflow: hidden;
+    position: relative;
+}
+.card-o .spes::after,
+.card-o .spes-bottom::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 47%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+}
+.card-o .spes .top-data,
+.card-o .spes-bottom .top-data {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.card-o .spes .top-data li,
+.card-o .spes-bottom .top-data li {
+    list-style: none;
+    font-size: 26px;
+    margin-top: 18px;
+    border-bottom: 1px solid #ffffff47;
+    padding: 10px;
+    color: #fff;
+}
+.card-o .spes-bottom {
+    background-color: #ffae25;
+}
+.card-o .spes-bottom .top-data li {
+    color: #333;
+}
+.card-o .butt {
+    display: flex;
+    justify-content: center;
+}
+.card-o .but-card,
+.card-o .but-cardt {
+    background: #FFAE25;
+    box-shadow: 3px 4px 15px #00000026;
+    border-radius: 10px;
+    padding: 15px 30px;
+    width: 183px;
+    color: #fff;
+    position: relative;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #FFAE25;
+    color: #333;
+    text-decoration: none;
+    margin-top: 19px;
+}
+.card-o .but-card:hover {
+    background-color: #8368ffd4;
+    color: #fff;
+    border: none;
+}
+.card-o .but-cardt {
+    background-color: #8368ffd4;
+    color: #fff; 
+    border: 1px solid #8368ffd4;
+}
+.card-o .but-cardt:hover {
+    background-color: #FFAE25;
+    color: #fff;
+    border: none;
+}
+.calendar {
+    background-color: #f5f5f5;
+    padding-top: 91px;
+    position: relative;
+    padding-bottom: 90px;
+}
+.calendar .tab-body {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 35px;
+    position: relative;
+}
+.calendar .tab-body .one,
+.calendar .tab-body .bot-on {
+    width: calc(99% / 4);
+    text-align: center;
+    height: 350px;
+    background-color: #fff;
+    margin-left: 1%;
+    overflow: hidden;
+    border-radius: 18px 18px 18px 170px;
+}
+.calendar .tab-body .bot-on {
+    border-radius: 18px 18px 170px 18px;
+}
+.calendar .tab-body .one img,
+.calendar .tab-body .bot-on img {
+    height: 310px;
+}
+.calendar .tab-body .one span,
+.calendar .tab-body .bot-on span {
+    display: block;
+    padding: 4px 17px;
+    background-color: #9881ff;
+    color: #fff;
+    text-align: right;
+    font-size: 24px;
+}
+.calendar .tab-body .bot-on span {
+    background-color: #ffae25;
+    text-align: left;
+}
+.calendar .day-top {
+        position: absolute;
+        top: 78%;
+        right: 291px;
+        width: 75px;
+        height: 81px;
+        background-color: #ec4454;
+        color: #fff;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 1.5;
+        font-size: 24px;
+        border: 1px solid #d8d5d569;
+    }
+.calendar .day-bot {
+    position: absolute;
+    top: 79%;
+    left: 300px;
+    width: 75px;
+    height: 82px;
+    background-color: #ec4454;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 24px;
+    border: 1px solid #d8d5d569;
+}
+.calendar .day-body {
+    position: absolute;
+    bottom: 0%;
+    right: 288px;
+    width: 75px;
+    height: 81px;
+    background-color: #ec4454;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 24px;
+    border: 1px solid #d8d5d569;
+}
+.calendar .day-boto {
+    position: absolute;
+    bottom: 0%;
+    left: 304px;
+    width: 75px;
+    height: 82px;
+    background-color: #ec4454;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 24px;
+    border: 1px solid #d8d5d569;
+}
+.calendar .day-cent {
+    position: absolute;
+    bottom: 8px;
+    right: 292px;
+    width: 75px;
+    height: 81px;
+    background-color: #ec4454;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 24px;
+    border: 1px solid #d8d5d569;
+}
+.calendar .day-botto {
+    position: absolute;
+    bottom: 0;
+    left: 302px;
+    width: 75px;
+    height: 82px;
+    background-color: #ec4454;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 24px;
+    border: 1px solid #d8d5d569;
+}
+.social-media {
+    padding-top: 122px;
+    background-color: #eef0f4;
+}
+.social-media .box-media {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 82px;
+}
+.social-media .box-media .icon {
+    width: 14%;
+    margin-right: 1%;
+}
+.box-t {
+    display: flex;
+    justify-content: center;
+}
+.social-media .box-media .icon a  {
+    color: #fff;
+    padding: 12px 21px;
+    height: 86px;
+    text-align: center;
+    background-image: linear-gradient(to right,#eb3c5a 0%,#f67831 100%),linear-gradient(to right,#eb3c5a 0%,#f67831 100%);
+    font-size: 31px;
+    border-radius: 50%;
+    line-height: 3;
+    text-decoration: none;
+    opacity: 0.6;
+}
+.social-media .box-media .icon a:hover {
+    opacity: 1;
+}
+.des-web {
+    background-color: #212020;
+    padding: 20px;
+}
+.end-des {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    direction: ltr;
+}
+.des-web .end-des a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+  }
+  @media (max-width:575px) {
+    .had-top {
+        background-position: 51% 49%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 98vh;
+    }
+    .had-top .text-had {
+        position: absolute;
+        z-index: 2;
+        top: 36%;
+        left: 10%;
+    }
+    .had-top .text-had h1 {
+        font-size: 3em;
+        text-align: center;
+        line-height: 1.7;
+    }
+    .had-top .text-had p {
+        font-size: 32px;
+    }
+    .box-t {
+        min-height: 338px;
+    }
+    .mine .one-about .top-about {
+        display: block;
+    }
+    .mine .one-about .top-about .left-about {
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .mine .one-about .top-about .left-about .ico {
+        margin: auto;
+    }
+    .mine .one-about .top-about .left-about ul {
+        list-style: none;
+    }
+    .mine .one-about .top-about .left-about ul li {
+        font-size: 23px;
+    }
+    .mine .one-about .about-box .right-about {
+        height: 301px;
+        margin: auto;
+        margin-bottom: 25px;
+        margin-top: 55px;
+        display: block;
+        width: fit-content;
+        overflow: hidden;
+      margin-right: -31px;
+
+        }
+        .mine .one-about .about-box .right-about .icon {
+            width: 236px;
+        }
+        .mine .one-about .about-box .right-about .text-one {
+            margin-right: 0;
+            padding: 0;
+            font-size: 32px;
+        }
+        .price .box-card {
+            display: block;
+        }
+        .price .card-o {
+            width: 100%;
+            margin-bottom: 63px;
+            overflow: hidden;
+            height: 620px;
+        }
+        .calendar .tab-body {
+            flex-wrap: wrap;
+        }
+        .calendar .tab-body .one, .calendar .tab-body .bot-on {
+            width: 46%;
+            margin-bottom: 76px;
+        }
+        .calendar .tab-body .bot-on {
+            width: 46%;
+            margin-bottom: 76px;
+        }
+        .calendar .day-top {
+            position: absolute;
+            top: 34%;
+            right: 153px;
+        }
+        .calendar .day-bot {
+            position: absolute;
+            top: 85%;
+            left: 146px;
+        }
+        .calendar .day-body {
+            position: absolute;
+            bottom: 56%;
+            right: 149px;
+        }
+        .calendar .day-boto {
+            position: absolute;
+            bottom: 6%;
+            left: 149px;
+        }
+        .calendar .day-cent {
+            position: absolute;
+            bottom: 56%;
+             right: 153px
+        }
+        .calendar .day-botto {
+            position: absolute;
+            bottom: 6%;
+            left: 148px;
+        }
+        .social-media {
+            padding-top: 22px;
+            padding-bottom: 36px;
+        }
+        .social-media .box-media {
+            display: block;
+        }
+    .social-media .box-media .icon {
+        margin: auto;
+    }
+    .social-media .box-media .icon a {
+        border-radius: 16%;
+    }
+        .end-des {
+            font-size: 25px;
+            direction: ltr;
+            overflow: hidden;
+        }
+
+  }
+  @media (min-width:576px) and (max-width:767px) {
+    .had-top .text-had {
+        position: absolute;
+        top: 48%;
+        left: 10%;
+    }
+    .had-top .text-had h1 {
+        font-size: 3em;
+    }
+    .box-t {
+        min-height: 492px;
+    }
+    .mine .one-about .top-about {
+        display: block;
+    }
+    .mine .one-about .top-about .left-about {
+        text-align: center;
+    }
+    .mine .one-about .top-about .left-about ul  {
+        list-style: none;
+    }
+    .mine .one-about .top-about .left-about ul li {
+        margin-top: 22px;
+    }
+    .mine .one-about .top-about .left-about .ico {
+
+        margin: auto;
+    }
+    .mine .one-about .top-about .about-box {
+        margin-top: 70px;
+    }
+    .mine .one-about .about-box .right-about {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .price .box-card {
+        display: block;
+    }
+    .price .card-o {
+        width: 92%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .calendar .tab-body {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        margin-top: 35px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .calendar .tab-body .one, .calendar .tab-body .bot-on {
+        width: 49%;
+        margin-bottom: 50px;
+    }
+    .calendar .tab-body .bot-on {
+        width: 49%;
+        margin-bottom: 50px;
+    }
+    .calendar .day-top {
+        position: absolute;
+        top: 35%;
+        right: 231px;
+        font-size: 27px;
+    }
+    .calendar .day-bot {
+        position: absolute;
+        top: 85%;
+        left: 233px;
+    }
+    .calendar .day-body {
+        position: absolute;
+        bottom: 56%;
+        right: 233px;
+    }
+    .calendar .day-boto {
+        position: absolute;
+        bottom: 5%;
+        left: 233px;;
+    }
+    .calendar .day-cent {
+        position: absolute;
+        bottom: 55%;
+        right: 235px;
+    }
+    .calendar .day-botto {
+        position: absolute;
+        bottom: 36px;
+        left: 233px;
+    }
+    .social-media .box-media .icon {
+        margin-right: 6%;
+    }
+    
+}
+@media (min-width:768px) and (max-width:991px) {
+    .had-top .text-had {
+        position: absolute;
+        top: 48%;
+        left: 4%;
+    }
+    .mine .one-about .about-box .right-about {
+        width: 100%;
+        overflow: hidden;
+    }
+    .mine .one-about .top-about {
+        display: block;
+    }
+    .mine .one-about .top-about .left-about {
+        text-align: center;
+    }
+    .mine .one-about .top-about .left-about ul {
+        list-style: none;
+    }
+    .mine .one-about .top-about .left-about .ico {
+        margin: auto;
+    }
+    .mine .one-about .top-about .about-box {
+        margin-top: 75px;
+    }
+    .mine .one-about .about-box .right-about .text-one {
+        margin-right: 0;
+    }
+    .price .card-o {
+        width: 50%;
+        height: 628px;
+    }
+    .calendar .tab-body {
+        flex-wrap: wrap;
+    }
+    .calendar .tab-body .one, .calendar .tab-body .bot-on {
+        width: 44%;
+        margin-bottom: 50px;
+    }
+    .calendar .tab-body .one, .calendar .tab-body .bot-on {
+        width: 44%;
+        margin-bottom: 50px;
+    }
+    .calendar .day-top {
+        position: absolute;
+        top: 34%;
+        right: 320px;
+    }
+    .calendar .day-bot {
+        position: absolute;
+        top: 85%;
+        left: 326px;
+    }
+    .calendar .day-body {
+        position: absolute;
+        bottom: 56%;
+        right: 321px;
+    }
+    .calendar .day-boto {
+        position: absolute;
+        bottom: 6%;
+        left: 325px;
+    }
+    .calendar .day-cent {
+        position: absolute;
+        bottom: 55%;
+        right: 324px;
+    }
+    .calendar .day-botto {
+        position: absolute;
+        bottom: 46px;
+        left: 322px;
+    }
+    
+    
+    
+}
+@media (min-width:992px) and (max-width:1199px) {
+    .had-top .text-had {
+        position: absolute;
+        top: 45%;
+        left: 5%;
+        margin-left: -35px;
+    }
+    .calendar .day-top {
+        position: absolute;
+        top: 78%;
+        right: 208px;
+    }
+    .calendar .day-bot {
+        position: absolute;
+        top: 78%;
+        left: 213px;
+    }
+    .calendar .day-body {
+        position: absolute;
+        bottom: 0%;
+        right: 209px;
+    }
+    .calendar .day-boto {
+        position: absolute;
+        bottom: 0%;
+        left: 209px;
+    }
+    .calendar .day-cent {
+        position: absolute;
+        bottom: 8px;
+        right: 209px;
+    }
+    .calendar .day-botto {
+        position: absolute;
+        bottom: 0;
+        left: 209px;
+    }
+    .mine .one-about .about-box .right-about {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .mine .one-about .about-box .right-about .text-one {
+         margin-right: 0;
+    }
+    .price .card-o {
+        overflow: hidden;
+        height: 634px
+    }
+    
+}
+@media (min-width:1200px) and (max-width:1400px) {
+    .calendar .day-top {
+        position: absolute;
+        top: 78%;
+        right: 251px;
+    }
+    .calendar .day-bot {
+        position: absolute;
+        top: 78%;
+        left: 253px;
+    }
+    .calendar .day-body {
+        position: absolute;
+        bottom: 0%;
+        right: 251px;
+    }
+    .calendar .day-boto {
+        position: absolute;
+        bottom: 0%;
+        left: 256px;
+    }
+    .calendar .day-cent {
+        position: absolute;
+        bottom: -4px;
+        right: 247px;
+    }
+    .calendar .day-botto {
+        position: absolute;
+        bottom: 0;
+        left: 256px;
+    }
+}
+
+
